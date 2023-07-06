@@ -1,0 +1,17 @@
+import random 
+import time
+
+timer = input ("Enter time in seconds")
+
+no = random.randint(1,6) 
+
+
+while response == "y": 
+    time.sleep(1)
+    print(no) 
+
+while response == "n":
+    time.sleep(1)
+    print("Thank you for trying it!")
+
+
